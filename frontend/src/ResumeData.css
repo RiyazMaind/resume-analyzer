@@ -1,0 +1,32 @@
+.resume-data {
+  text-align: left;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #111827;
+  margin-top: 20px;
+}
+
+.resume-data h2 {
+  margin-bottom: 20px;
+}
+
+.resume-data p,
+.resume-data ul {
+  margin: 10px 0;
+}
+
+.resume-data ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.resume-data a {
+  color: #1e40af;
+  text-decoration: none;
+}
+
+.resume-data a:hover {
+  text-decoration: underline;
+}

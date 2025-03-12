@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form {
+  margin: 20px 0;
+}
+
+.upload-form input[type="file"] {
+  margin-right: 10px;
+}
+
+.upload-form input,
+.upload-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.upload-form button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-form button:hover {
+  background-color: #21a1f1;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+.result {
+  text-align: left;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.result h2 {
+  margin-top: 0;
+}
+
+.resume-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.resume-data-table th,
+.resume-data-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.resume-data-table th {
+  background-color: #282c34;
+  color: white;
+}
+
+.resume-data-table td {
+  background-color: #f9f9f9;
+}
+
+.resume-data-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.resume-data-table tr:hover {
+  background-color: #ddd;
+}
+
+.score-display {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #61dafb;
+}
